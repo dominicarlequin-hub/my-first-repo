@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Dominic's Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       * {
         margin: 0;
@@ -12,49 +13,55 @@
       body {
         background-color: #0f0f0f;
         color: #ffffff;
-        font-family: Arial, sans-serif;
+        font-family: -apple-system, sans-serif;
       }
 
       .hero {
-        background: linear-gradient(135deg, #1a1a2e, #16213e);
-        padding: 60px 20px;
+        background: linear-gradient(160deg, #1a1a2e, #0f3460);
+        padding: 80px 24px 60px;
         text-align: center;
         border-bottom: 2px solid #4ea8de;
       }
 
       .hero h1 {
-        font-size: 3em;
+        font-size: 2.6em;
         color: #4ea8de;
-        margin-bottom: 10px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 12px;
       }
 
-      .hero p {
+      .hero .subtitle {
         color: #aaaaaa;
-        font-size: 1.1em;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       .container {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 40px 20px;
+        padding: 36px 24px;
+      }
+
+      .section {
+        margin-bottom: 44px;
       }
 
       h2 {
         color: #4ea8de;
-        font-size: 1.4em;
-        margin-bottom: 15px;
-        padding-bottom: 8px;
-        border-bottom: 1px solid #333;
+        font-size: 0.85em;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #222;
       }
 
       p {
         color: #cccccc;
-        line-height: 1.8;
-        margin-bottom: 15px;
-      }
-
-      .section {
-        margin-bottom: 40px;
+        font-size: 1.05em;
+        line-height: 1.9;
+        margin-bottom: 14px;
       }
     </style>
   </head>
@@ -62,7 +69,7 @@
 
     <div class="hero">
       <h1>Hi, I'm Dominic</h1>
-      <p>Aspiring Tech Professional · New York City</p>
+      <p class="subtitle">Aspiring Tech Professional · New York City</p>
     </div>
 
     <div class="container">
